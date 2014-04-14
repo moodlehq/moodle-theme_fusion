@@ -27,6 +27,7 @@ defined('MOODLE_INTERNAL') || die;
 $plugin->version   = 2014041400; // The current module version (Date: YYYYMMDDXX)
 $plugin->requires  = 2014041101; // Requires this Moodle version
 $plugin->component = 'theme_fusion'; // Full name of the plugin (used for diagnostics)
+$plugin->maturity  = MATURITY_STABLE;
 $plugin->dependencies = array(
     'theme_canvas'  => 2013110500,
 );
